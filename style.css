@@ -127,9 +127,9 @@ html{
     transition-duration: 150ms;
 }
 .product_div ul div{
-    background-image:url(weology\ pic1.jpeg) ;
+   background-image:url(weology\ pic1.jpeg) ;
     border: 2px solid blue;
-    border-radius: 15px;
+    border-radius: 10% 30%;
     width: 30%;
     height: 230px;
     margin: 20px ;
