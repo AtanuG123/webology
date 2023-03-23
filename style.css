@@ -1,0 +1,146 @@
+html{
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    color: white;
+    background-color: rgba(13, 14, 15, 0.6);
+    display: flex;
+    width: 100%;
+    position: absolute;
+    font-size: 1.4rem;
+}
+#navbar:hover{
+    background-color: rgb(95, 88, 79);
+    transition: all .7s;
+}
+#forimg{
+    height: 50px;
+    
+    padding: 0px 0px 15px 20px;
+    
+}
+#navlogo{
+    border-radius: 30px;
+    height: 59px;
+    cursor: pointer;
+    
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    /* justify-content:flex-end; */
+}
+#navbar ul li{
+    padding: 0px 20px;
+}
+#navbar ul li a{
+    color: rgb(239, 242, 246);
+    padding: 0px 10px;
+    text-shadow: 1px 1px 1px rgb(121, 202, 186) ;
+    text-decoration: none;
+    transition: all .7s;
+}
+#navbar ul li a:hover{
+    background-color: rgb(226, 43, 95);
+    border-radius: 10px;
+    
+}
+#navbar ul li i{
+    color: tomato;
+}
+
+
+
+#home-all{
+    display: flex;
+    padding: 5px 20px;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content:center;
+    /* background-color: aquamarine; */
+}
+
+
+#home{  font-family: 'Teko', sans-serif;
+      display: flex;
+        flex-direction: column;    
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0% 20%;
+        color: rgb(255, 255, 255);
+        /* text-shadow: 1px 1px 1px rgb(244, 248, 248) ; */
+    }
+#home-all::before{
+        content: "";
+        margin-top: 40px;
+        background: url(pic1\ home.jpg)no-repeat center center/cover;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        z-index: -1;
+        
+    
+    }
+#home>h1{
+    margin-bottom: 20px;
+}
+#home>p{
+    font-size:larger;
+}
+
+
+
+
+#products{
+    margin-top: -16px;
+    height:600px;
+    color: white;
+    /* background-color: antiquewhite; */
+    background-image: url(".gamer.jpeg");
+}
+#products h2{
+    display: flex;
+    justify-content: center;
+}
+.product_div ul{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    
+    
+}
+.product_div ul div:hover{
+    -ms-transform: scale(1.2);
+    
+    -webkit-transform: scale(1.2);
+        
+    transform: scale(1.1);
+    transition-duration: 150ms;
+}
+.product_div ul div{
+    border: 2px solid blue;
+    border-radius: 15px;
+    width: 30%;
+    height: 230px;
+    margin: 20px ;
+
+}
+.product_div ul div *{
+    display: flex;
+    justify-content: center;
+}
+
+.product_div ul div button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
