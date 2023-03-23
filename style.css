@@ -100,7 +100,7 @@ html{
 
 
 #products{
-    margin-top: -16px;
+    
     height:600px;
     color: white;
     /* background-color: antiquewhite; */
@@ -108,6 +108,7 @@ html{
 }
 #products h2{
     display: flex;
+    margin-top: 5px;
     justify-content: center;
 }
 .product_div ul{
@@ -126,6 +127,7 @@ html{
     transition-duration: 150ms;
 }
 .product_div ul div{
+    background-image:url(weology\ pic1.jpeg) ;
     border: 2px solid blue;
     border-radius: 15px;
     width: 30%;
@@ -137,10 +139,86 @@ html{
     display: flex;
     justify-content: center;
 }
+.product_div >ul >div>h4{
+    margin-top: 20px;
+    /* padding-top: 20%; */
+}
+.product_div >ul >div >button{
+    display: flex;
+   margin-left: 37%;
+   /* margin-top: 35%; */
+   padding: 5px 15px;
+   background-color: rgb(245, 238, 238);
+   color: rgb(17, 16, 16);
+}
+.product_div >ul >div >button:hover{
+    background-color: black;
+    color:white ;
+    transition: all .7s;
+    font-size: 15px;
+    
+    
+}
 
-.product_div ul div button{
+.hide{
+    margin-top: 40%;
+}
+  footer{
+    height:300px;
+    background-color: rgba(8, 6, 6);
+    width: 100%;
+}
+footer li{
+    display: flex;
+    justify-content: center;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+}
+#forlink,#forlink div{
+    padding: 0px 23% 0px 23%;
+    display: flex;
+    justify-content:space-around;
+
+}
+#forlink h3{
+    color: white;
+}
+#forlink div{
+    cursor: pointer;
+    padding: 10px 40px;
+}
+#use_follow{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: aliceblue;
+    padding:20px 0px;
 }
 
+.links{
+    color: rgb(212, 212, 232);
+    margin: 0px 10px;
+     padding: 6px;
+    border-radius: 3px;
+/* background-color: rgb(110, 66, 8); */
+}
+.links-1{
+    border: none;
+}
+.links:hover{
+    border: 2px solid rgb(230, 46, 150); 
+    background-color: bisque;
+}
+.links:hover{
+    color: rgb(8, 16, 55);
+}
+#copyright{
+    color: white;
+    text-align: center;
+}
